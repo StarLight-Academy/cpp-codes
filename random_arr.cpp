@@ -12,7 +12,10 @@ using namespace std;
 int* generate_random_arr(int size){
 	static int arr[1000];
 	time_t t;
+	
+	// Get current time
 	unsigned int sval = (unsigned)time(&t);
+	// seed random number generator
 	srand(sval);
 	for(int i = 0; i < size; i++){
 		arr[i] = rand();
