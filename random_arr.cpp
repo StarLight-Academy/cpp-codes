@@ -11,7 +11,6 @@ using namespace std;
  */
 int* generate_random_arr(int size){
 	static int arr[1000];
-	time_t t;
 	
 	// Get current time
 	unsigned int sval = (unsigned)time(0);

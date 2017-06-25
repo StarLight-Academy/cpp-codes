@@ -80,8 +80,6 @@ int main(){
 	
 	cout<<"Enter the string to reverse: ";
 	
-	// Ignore the trailing char
-	cin.ignore();
 	//Take string as input
 	cin.getline(str, sizeof(str));
 	
