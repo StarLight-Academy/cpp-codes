@@ -3,6 +3,14 @@
 
 using namespace std;
 
+/*
+ * sqrt_: Takes a float number and returns its 
+ * square root without using built in function
+ * sqrt()
+ * 
+ * returns: square root of number is possible
+ * else returns -1.0.
+ */
 float sqrt_(float num){
 	float low = 1, high = num, mid;
 	while(low <= high){
@@ -22,11 +30,15 @@ float sqrt_(float num){
 int main(){
 	float num, res;
 	
+	//Take input
 	cout<<"\n Enter number to find Square root: ";
 	cin>>num;
 	
+	// Find Square Root
 	res = sqrt_(num);
 	
+	// Display N/A if the root is not applicable
+	// Else print result
 	if(res < 0){
 		cout<<"\n N/A";
 	}else{
