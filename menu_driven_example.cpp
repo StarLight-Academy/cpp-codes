@@ -31,7 +31,7 @@ bool isPrime(int n){
  * returns true if the number is Palindrome, 
  * else false.
  */
-int isPalindrome(int n){
+bool isPalindrome(int n){
 	int reverse = 0, digit, temp;
 	temp = n;
 	while(temp){
@@ -41,8 +41,8 @@ int isPalindrome(int n){
 	}
 	
 	if(n == reverse)
-		return 1;
-	return 0;
+		return true;
+	return false;
 }
 
 int main(){
