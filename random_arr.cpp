@@ -14,7 +14,7 @@ int* generate_random_arr(int size){
 	time_t t;
 	
 	// Get current time
-	unsigned int sval = (unsigned)time(&t);
+	unsigned int sval = (unsigned)time(0);
 	// seed random number generator
 	srand(sval);
 	for(int i = 0; i < size; i++){
