@@ -12,4 +12,4 @@ This repository contains code taught at StarLight Academy to class 12th students
 7. [vector.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/vector.cpp) - Example of a class, vector.
 
 ### Assignments
-1. [cpp_assignment_1.pdf](https://github.com/StarLight-Academy/cpp-codes/blob/master/assigments/cpp_assignment_1.pdf) - First Assignment covering basic knowledge of the language.
+1. [cpp_assignment_1.pdf](https://github.com/StarLight-Academy/cpp-codes/blob/master/assignments/cpp_assignment_1.pdf) - First Assignment covering basic knowledge of the language.
