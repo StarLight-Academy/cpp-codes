@@ -10,6 +10,7 @@ This repository contains code taught at StarLight Academy to class 12th students
 5. [struct_exp.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/struct_exp.cpp) - A small example program for a book store management system.
 6. [student_mgmt_sys_exp.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/student_mgmt_sys_exp.cpp) - A simple student management menu driven program.
 7. [vector.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/vector.cpp) - Example of a class, vector.
+8. [ctor_dtor_exm.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/ctor_dtor_exm.cpp) - Constructor and Destructor order of execution.
 
 ### Assignments
 1. [cpp_assignment_1.pdf](https://github.com/StarLight-Academy/cpp-codes/blob/master/assignments/cpp_assignment_1.pdf) - First Assignment covering basic knowledge of the language.
