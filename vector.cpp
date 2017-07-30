@@ -27,6 +27,21 @@ class Vector{
 			this->dimension = 3;
 			this->coords[0] = this->coords[1] = this->coords[2] = 0;
 		}
+		
+		Vector(const Vector &v){
+			dimension = v.get_dimension();
+			for(int i = 0; i < dimension; i++){
+				coords[i] = v.get_ith_coord(i);
+			}
+		}
+		
+		int get_dimension() const{
+			return dimension;
+		}
+		
+		float get_ith_coord(int i) const{
+			return coords[i];
+		}
 	
 		int length(){
 			return dimension;
@@ -108,8 +123,11 @@ int main(){
 	Vector v1_unit = v1.direction();
 	
 	v.print();
+	Vector v3(v);
 	cout<<endl;
 	v1_unit.print();
+	cout<<endl;
+	v3.print();
 	cout<<"\n"<<v1*v2;
 	return 0;
 }
