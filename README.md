@@ -12,6 +12,12 @@ This repository contains code taught at StarLight Academy to class 12th students
 7. [vector.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/vector.cpp) - Example of a class, vector.
 8. [ctor_dtor_exm.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/ctor_dtor_exm.cpp) - Constructor and Destructor order of execution.
 9. [class_emp.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/class_emp.cpp) - Example of Array of objects.
+10. [print_without_header.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/print_without_header.cpp) - Print Hello World Without using header files.
+11. [pi_exapnsion.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/pi_exapnsion.cpp) - Calculate value of Pi using Leibniz expansion.
+12. [polymorphism.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/polymorphism.cpp) - Polymorphism example using inheritance.
+12. [file_1.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/file_1.cpp) - Write to a text file.
+13. [file_2.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/file_2.cpp) - Read from a text file.
+14. [file_3.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/file_3.cpp) - Make a CSV file.
 
 ### Assignments
 1. [cpp_assignment_1.pdf](https://github.com/StarLight-Academy/cpp-codes/blob/master/assignments/cpp_assignment_1.pdf) - First Assignment covering basic knowledge of the language.
