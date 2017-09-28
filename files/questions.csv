@@ -1,0 +1,11 @@
+What is the correct value to return to the operating system upon the successful completion of a program?,-1,1,0,Programs do not return a value,3
+What punctuation is used to signal the beginning and end of code blocks?,{},->and<-,BEGIN and END,(and),1
+Which of the following is a correct comment?,*/ Comments */,** Comment **,/* Comment */,{ Comment },3
+Which of the following is not a correct variable type?,float,real,int,double,2
+Which of the following is the correct operator to compare two variables?,:=,=,equal,==,4
+Who invented C ?,James Gosling,Bjarne Stroustrup,Dennis Ritchie,Guido van Rossum,3
+In the given statement what does the arr indicate?    char *arr[30],arr is a array of function,arr is a array of 30 characters,arr is a pointer to an array,arr is a array of 30 character pointers,4
+Range of int data type for a 16 bit compiler is,-32768 to 32767,-32767 to 32768,0 to 65536,-65536 to 0,1
+Which is not a valid identifier,_hello,1hello,hel_lo,hello1,2
+which is the only function that all C++ programs must contain,start(),system(),main(),getch(),3
+ASCII value of \'x\' is,118,119,120,121,3
