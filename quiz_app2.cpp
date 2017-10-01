@@ -136,9 +136,11 @@ void display_instructions(int n_ques){
 
 
 void play(Question questions[], int size){
-	int choice;
+	int choice, index;
 	int correct = 0;
 	char user_name[31];
+	int used_indices[size];
+	for(int i = 0; i < size; i++) used_indices[i] = 0;
 	cin.ignore();
 	cout<<"Enter Your Name: ";
 	cin.getline(user_name, sizeof(user_name));
@@ -148,8 +150,13 @@ void play(Question questions[], int size){
 	display_instructions(size+1);
 	system("cls");
 	for(int i = 0; i < size; i++){
+		index = rand() % size;
+		while(used_indices[index]){
+			index = rand() % size;
+		}
+		used_indices[index] += 1;
 		system("cls");
-		questions[i].display_question();
+		questions[index].display_question();
 		cout<<"\n\nEnter Your Choice: ";
 		cin>>choice;
 		if(choice-1 == questions[i].getAnswer()){
