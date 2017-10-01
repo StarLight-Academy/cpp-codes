@@ -178,7 +178,8 @@ void play(Question questions[], int size){
 int main(){
 
 	int choice;
-	Question questions[11];
+	int num_ques = 11;
+	Question questions[num_ques];
 	read_questions("files/questions.csv", questions);
 	while(1){
 		system("cls");
@@ -190,7 +191,7 @@ int main(){
 		cin>>choice;
 
 		if(choice == 1){
-			play(questions, 11);
+			play(questions, num_ques);
 		}else if(choice == 2){
 			break;
 		}else{
