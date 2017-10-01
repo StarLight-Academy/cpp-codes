@@ -125,9 +125,28 @@ void read_questions(char* file_name, Question qs[]){
 }
 
 
+void display_instructions(int n_ques){
+	cout<<"\n\n--------------------Instructions--------------------\n";
+	cout<<"1. The quiz contains "<<n_ques<<" MCQs. In which only one answer is correct"<<endl;
+	cout<<"2. Answer Choices \"1\", \"2\", \"3\" or \"4\". Anyother choice will be considered incorrect."<<endl;
+	cout<<"3. Every Correct Answer Results in 4 points and every wrong answer Results in -1"<<endl;
+	cout<<"\n Press Enter to continue";
+	getch();
+}
+
+
 void play(Question questions[], int size){
 	int choice;
 	int correct = 0;
+	char user_name[31];
+	cin.ignore();
+	cout<<"Enter Your Name: ";
+	cin.getline(user_name, sizeof(user_name));
+	system("cls");
+
+	cout<<"Hello! "<<user_name;
+	display_instructions(size+1);
+	system("cls");
 	for(int i = 0; i < size; i++){
 		system("cls");
 		questions[i].display_question();
@@ -135,23 +154,43 @@ void play(Question questions[], int size){
 		cin>>choice;
 		if(choice-1 == questions[i].getAnswer()){
 			cout<<"\n\n Write Choice";
-			correct++;
+			correct+=4;
 		}else{
 			cout<<"\n\n Wrong Choice";
+			correct -= 1;
 		}
 		cout<<"\n Press Enter to continue";
 		getch();
 	}
 	system("cls");
 	cout<<"\n End of Quiz.. Thanks for Playing!";
-	cout<<"\n Total Correct: "<<correct;
+	cout<<"\n Total Score: "<<correct;
 }
 
 
 int main(){
-	system("cls");
+
+	int choice;
 	Question questions[11];
 	read_questions("files/questions.csv", questions);
-	play(questions, 11);
+	while(1){
+		system("cls");
+		cout<<"\n\n\t\tMenu\n";
+		cout<<"-------------------------------------------------------------";
+		cout<<"\n\t1. Start Quiz\n\t2. Exit\n";
+		cout<<"-------------------------------------------------------------";
+		cout<<"\n\nEnter your Choice: ";
+		cin>>choice;
+
+		if(choice == 1){
+			play(questions, 11);
+		}else if(choice == 2){
+			break;
+		}else{
+			cout<<"Enter the right Choice";
+		}
+		cout<<"\nPress Enter to continue";
+		getch();
+	}
 }
 
