@@ -1,5 +1,5 @@
 # C++ Codes Class 12th CBSE
-This repository contains code taught at StarLight Academy to class 12th students in 20117-2018.
+This repository contains code taught at StarLight Academy to class 12th students in 2017-2018.
 
 ## Contents
 ### Codes
@@ -18,6 +18,9 @@ This repository contains code taught at StarLight Academy to class 12th students
 12. [file_1.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/file_1.cpp) - Write to a text file.
 13. [file_2.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/file_2.cpp) - Read from a text file.
 14. [file_3.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/file_3.cpp) - Make a CSV file.
+15. [emp_pay_slip.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/emp_pay_slip.cpp) - Employee Payment Slip Generation System.
+16. [quiz_app2.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/quiz_app2.cpp) - Quiz App
+17. [candidate.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/candidate.cpp) - Demo saving objects directly to file.
 
 ### Assignments
 1. [cpp_assignment_1.pdf](https://github.com/StarLight-Academy/cpp-codes/blob/master/assignments/cpp_assignment_1.pdf) - First Assignment covering basic knowledge of the language.
