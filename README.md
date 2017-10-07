@@ -21,6 +21,9 @@ This repository contains code taught at StarLight Academy to class 12th students
 16. [emp_pay_slip.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/emp_pay_slip.cpp) - Employee Payment Slip Generation System.
 17. [quiz_app2.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/quiz_app2.cpp) - Quiz App
 18. [candidate.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/candidate.cpp) - Demo saving objects directly to file.
+19. [pointers_demo.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/pointers_demo.cpp) - Pointers Demo
+20. [pointers_demo2.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/pointers_demo2.cpp) - Iterating through array using pointers
+21. [sizeof_demo.cpp](https://github.com/StarLight-Academy/cpp-codes/blob/master/sizeof_demo.cpp) - Demo of usage of sizeof() operator
 
 ### Assignments
 1. [cpp_assignment_1.pdf](https://github.com/StarLight-Academy/cpp-codes/blob/master/assignments/cpp_assignment_1.pdf) - First Assignment covering basic knowledge of the language.
