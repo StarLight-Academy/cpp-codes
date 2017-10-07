@@ -137,7 +137,7 @@ void display_instructions(int n_ques){
 
 void play(Question questions[], int size){
 	int choice, index;
-	int correct = 0;
+	int correct = 0;  //score
 	char user_name[31];
 	int used_indices[size];
 	for(int i = 0; i < size; i++) used_indices[i] = 0;
