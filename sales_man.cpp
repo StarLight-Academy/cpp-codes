@@ -43,7 +43,7 @@ public:
 	void sort_using_dimension(int choice=0){
 		Point temp;
 		for(int i = 1; i < total_points; i++){
-			for(int j = 0; j < total_points - i -1; j++){
+			for(int j = 0; j < total_points-i; j++){
 				if(compare_points(pth_followed[j], pth_followed[j+1], choice)){
 					temp = pth_followed[j];
 					pth_followed[j] = pth_followed[j+1];
