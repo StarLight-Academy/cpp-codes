@@ -28,7 +28,6 @@ private:
 	double distance(Point p1, Point p2){
 		double delta_x = p1.x - p2.x;
 		double delta_y = p1.y - p2.y;
-		cout<<endl<<sqrt(delta_x * delta_x + delta_y * delta_y)<<" "<<p1.x<<" "<<p1.y<<endl;
 		return sqrt(delta_x * delta_x + delta_y * delta_y);
 	}
 
@@ -41,7 +40,7 @@ public:
 		}
 	}
 	
-	void sort(int choice=0){
+	void sort_using_dimension(int choice=0){
 		Point temp;
 		for(int i = 1; i < total_points; i++){
 			for(int j = 0; j < total_points - i; j++){
@@ -95,10 +94,10 @@ int main(){
 	
 	SalesMan s(name, p1, 5);
 	s.display_path();
-	s.sort();
+	s.sort_using_dimension();
 	cout<<endl;
 	s.display_path();
-	s.sort(1);
+	s.sort_using_dimension(1);
 	cout<<endl;
 	s.display_path();
 	
@@ -109,10 +108,3 @@ int main(){
 	cout<<endl;
 	s.display_path();
 }
-
-
-
-
-
-
-
